@@ -1,0 +1,49 @@
+<div class="container text-center"> 
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center p-3 mb-2 bg-dark text-white" style="font-size: 250%;">Contact information</h1>
+        </div>
+    </div>
+    <div class ="row">
+        <h3> If there is any doubts, please enter them below and press the button. </h3>
+    </div>
+    <div class ="row">
+        <div class = "col-md-2">
+        </div>
+        <div class="col-md-4">
+            <input class="form-control" type="text" placeholder="Name">
+        </div>
+        <div class="col-md-4">
+            <input class="form-control" type="text" placeholder="Email">
+        </div>
+        <div class = "col-md-2">
+        </div>
+    </div>
+
+    </div>
+    <div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <input class="form-control" type="text" placeholder="Enter message here">
+  </div>
+  <div class="col-md-3"></div>
+</div>
+
+<div class="container d-flex justify-content-center mt-4">
+    <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right" data-bs-title="Message sent!" data-bs-content="Thank you for reaching out! We will soon get back to you.">
+     Custom popover
+    </button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+</script>
+
+
+
+    
